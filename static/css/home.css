@@ -40,7 +40,8 @@
 
 .warning{
     color:rgb(136, 64, 5);
-    font-family: fantasy;
+    font-family: cursive;
     font-size:  large;
     width: 100%;
+    text-align:center;
 }
