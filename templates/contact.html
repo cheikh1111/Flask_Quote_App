@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block additional_css %}
+<link rel="stylesheet" href=" {{ url_for('static', filename="css/contact.css")}}"
+{% endblock%}
+
+{% block main_area %}
+<div class="content">
+    <div class="contact">
+        <a href="#"> Whatsapp  </a>
+        <img src="{{ url_for("static" , file_name="imgs/Whatsapp.png")}}" alt="">
+        <a href="#"> Instagram </a>
+        <img src="{{ url_for("static" , file_name="imgs/Instagram.png")}}" alt="">
+        <a href="#"> Facebook  </a>
+        <img src="{{ url_for("static" , file_name="imgs/Facebook.png")}}" alt="">      
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+.content{
+    width:100%;
+}
+*{
+    line-height: 55px;
+}
+.big_title{
+    font-size: x-large;
+}
+.quote{
+    width : 80%;
+    margin:0 auto;
+    font-family: 'Domine' , serif;
+    font-weight: 600;
+    font-size: xx-large;
+    color:rgb(5, 78, 141)
+}
+
+.quote_container{
+    width: 80%;
+    margin: 0 auto;
+    font-weight:bold;
+    font-size: 20px;
+    color:rgb(6, 148, 42);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+.quote::before {
+    content: open-quote
+    
+}
+
+.quote::after {
+    content: close-quote
+}
+
+.warning{
+    color:rgb(136, 64, 5);
+    font-family: fantasy;
+    font-size:  large;
+    width: 100%;
+}
