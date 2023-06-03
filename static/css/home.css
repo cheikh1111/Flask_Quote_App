@@ -14,7 +14,7 @@
 .quote{
     width : 80%;
     margin:0 auto;
-    font-family: 'Domine' , serif;
+    font-family: 'Kanit' ,sans-serif;
     font-weight: 600;
     font-size: xx-large;
     color:rgb(5, 78, 141)
@@ -29,6 +29,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .category{
@@ -45,8 +46,12 @@
     content: close-quote
 }
 
+.author{
+    color:rgb(3, 4, 97)
+}
 .warning{
     color:rgb(136, 64, 5);
+    color: red;
     font-family: cursive;
     font-size:  large;
     width: 100%;
