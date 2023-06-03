@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     
 }
 
@@ -30,7 +30,7 @@
     list-style: none;
     font-family: fantasy;
     padding: 0;
-    margin-bottom: 5px;
+    margin:8px 0;
 
     
 }
@@ -42,7 +42,7 @@
 }
 
 .links a:hover{
-    color:rgb(17, 216, 17);
+    color:rgb(8, 194, 8);
 }
 
 .footer{

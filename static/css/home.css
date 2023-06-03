@@ -31,7 +31,10 @@
     justify-content: space-around;
 }
 
-
+.category{
+    text-transform: capitalize;
+    color:rgba(10, 10, 10, 0.904)
+}
 
 .quote::before {
     content: open-quote
