@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for("static",filename="css/master.css")}}">
-    {% block additional_css %}  {% endblock %}
+    <link rel="shortcut-icon" type="image/x-png" href="{{url_for("static",filename="imgs/favicon.png")}}">
+    {% block additional_css %}{% endblock %}
 </head>
 <body>
     <div class="page">
