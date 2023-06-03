@@ -1,5 +1,9 @@
 .content{
     width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 *{
     line-height: 55px;

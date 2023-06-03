@@ -30,7 +30,7 @@
     list-style: none;
     font-family: fantasy;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 
     
 }
@@ -50,11 +50,9 @@
     align-items: center;
     justify-content: center;
     width:100%;
-    position: absolute;
-    bottom: 0;
     color:red;
     font-size: small;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
