@@ -5,7 +5,13 @@ from random import choice
 
 app = Flask(__name__)
 def load_quote():
-    category = choice(["life", "success", "morning" , "learning" , "leadership" , "knowledge"])
+    category = choice(["life", "success","amazing","cool","attitude",
+                       "cool","computers","courage","car","change","business",
+                         "morning" , "dreams", "education","failure","family",
+                         "funny","future","gradiation","food","forgiveness","great",
+                         "health","intelligence","men","government","experience",
+                         "learning" , "leadership" , "knowledge"])
+    
     quotes_api = f'https://api.api-ninjas.com/v1/quotes?category={category}'
     response=get(quotes_api,headers={'X-Api-Key': 'q79+Z1ci+UI+QpBOFvQ8ow==yW7ecdmkRKeR5CBq'})
     quote_elements = response.json()[0]
